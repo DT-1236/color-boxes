@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Boxes from './Boxes';
+import SmartBoxes from './SmartBoxes';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Boxes />
+        <SmartBoxes />
       </div>
     );
   }
